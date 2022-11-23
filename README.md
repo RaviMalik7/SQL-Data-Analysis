@@ -3,12 +3,12 @@ select * from project.dbo.data1;
 
 select * from project.dbo.data2;
 
-##-- number of rows into our dataset
+##number of rows into our dataset
 
 select count(*) from project..data1
 select count(*) from project..data2
 
-##-- dataset for Maharashtra and Uttar Pradesh
+##dataset for Maharashtra and Uttar Pradesh
 
 select * from project..data1 where state in ('Maharashtra' ,'Uttar Pradesh')
 
